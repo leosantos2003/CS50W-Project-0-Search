@@ -56,7 +56,7 @@ Proposed as [Project 0](https://cs50.harvard.edu/web/projects/0/search/) by CS50
 
 ## Video Demo
 
-working on it...
+https://github.com/user-attachments/assets/f6f4f51f-4cf0-4dcf-a9a0-1dbf7b7a9cda
 
 ## License
 
