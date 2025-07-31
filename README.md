@@ -7,26 +7,26 @@
 
 ## About
 
-Proposed as Project 0 by CS50W. A front-end built with HTML and CSS for Google Search, Google Image Search and Google Advanced Search. Includes the "I'm Feeling Lucky" and all the Advanced Search filters.
+Proposed as [Project 0](https://cs50.harvard.edu/web/projects/0/search/) by CS50W. A front-end built with HTML and CSS for Google Search, Google Image Search and Google Advanced Search. Includes the "I'm Feeling Lucky" and all the Advanced Search filters.
 
 ## Searches
 
 1. **Standard Search:**
 
-* Parameter: `q`
-* `<input type="text" name="q">`
+   * Parameter: `q`
+   * `<input type="text" name="q">`
 
 2. **I'm Feeling Lucky:**
 
-* Parameters: `q`, `btnI`
-* `<input type="submit" name="btnI" value="I'm Feeling Lucky">`
+   * Parameters: `q`, `btnI`
+   * `<input type="submit" name="btnI" value="I'm Feeling Lucky">`
 
 <img width="812" height="363" alt="Captura de tela 2025-07-31 023011" src="https://github.com/user-attachments/assets/d5febd06-9299-437f-99d8-fa20920c9984" />
 
 3. **Image Search:**
 
-* Parameters: `q`, `tbm`
-* `<input type="hidden" name="tbm" value="isch">`
+   * Parameters: `q`, `tbm`
+   * `<input type="hidden" name="tbm" value="isch">`
 
 <img width="805" height="355" alt="Captura de tela 2025-07-31 023023" src="https://github.com/user-attachments/assets/97be8cc5-ca24-4717-9d95-a8f40342d10c" />
 
@@ -34,23 +34,23 @@ Proposed as Project 0 by CS50W. A front-end built with HTML and CSS for Google S
 
 all these words:
 
-* Parameters: `as_q`
-* `<input type="text" id="as_q" name="as_q">`
+   * Parameters: `as_q`
+   * `<input type="text" id="as_q" name="as_q">`
 
 this exact word or phrase:
 
-* Parameters: `as_epq`
-* `<input type="text" id="as_epq" name="as_epq">`
+   * Parameters: `as_epq`
+   * `<input type="text" id="as_epq" name="as_epq">`
 
 any of these words:
 
-* Parameters: `as_oq`
-* `<input type="text" id="as_oq" name="as_oq">`
+   * Parameters: `as_oq`
+   * `<input type="text" id="as_oq" name="as_oq">`
 
 none of these words:
 
-* Parameters: `as_eq`
-* `<input type="text" id="as_eq" name="as_eq">`
+   * Parameters: `as_eq`
+   * `<input type="text" id="as_eq" name="as_eq">`
 
 <img width="1026" height="704" alt="Captura de tela 2025-07-31 023035" src="https://github.com/user-attachments/assets/ba952a59-9efd-496a-9a22-9a3a95279c16" />
 
