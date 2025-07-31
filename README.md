@@ -11,24 +11,26 @@ Proposed as Project 0 by CS50W. A front-end built with HTML and CSS for Google S
 
 ## Searches
 
-Standard Search:
+1. **Standard Search:**
 
 * Parameter: `q`
 * `<input type="text" name="q">`
 
-I'm Feeling Lucky:
+2. **I'm Feeling Lucky:**
 
 * Parameters: `q`, `btnI`
 * `<input type="submit" name="btnI" value="I'm Feeling Lucky">`
 
 <img width="812" height="363" alt="Captura de tela 2025-07-31 023011" src="https://github.com/user-attachments/assets/d5febd06-9299-437f-99d8-fa20920c9984" />
 
+3. **Image Search:**
+
 * Parameters: `q`, `tbm`
 * `<input type="hidden" name="tbm" value="isch">`
 
 <img width="805" height="355" alt="Captura de tela 2025-07-31 023023" src="https://github.com/user-attachments/assets/97be8cc5-ca24-4717-9d95-a8f40342d10c" />
 
-Advanced Search:
+4. **Advanced Search:**
 
 all these words:
 
