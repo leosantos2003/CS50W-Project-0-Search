@@ -35,20 +35,21 @@
             /* Centraliza o formulário na página*/
             .search-container{
                 display: flex;
-                flex-direction: column;
+                /*flex-direction: column;*/
                 align-items: center;
                 justify-content: center;
-                height: 100vh;
+                height: 100%;
             }
             /* Organiza os itens dentro do formulário */
             form{
                 display: flex;
                 flex-direction: column; /*Todos os itens dentro de uma coluna*/
+                align-items: center;
                 margin-bottom: 20vh;
             }
             /* Dá um espaço entre barra e botão*/
             input[type="text"]{
-                margin-bottom: 10px;
+                margin-bottom: 20px;
             }
             /* Container para os dois botões*/
             .button-container{
@@ -56,32 +57,46 @@
                 justify-content: center;
                 gap: 10px;
             }
-            /*Título*/
+
+            /* Título */
             h1{
+                position: relative;
+                display: inline-block;
                 font-family: Arial, sans-serif;
                 font-weight: normal;
                 color: gray;
                 font-size: 70px;
-                margin-bottom: 20px;
-                text-align: center;
+                margin: 0;
+                margin-bottom: 30px;
+                margin-top: 50px;
+            }
+            /* Subtítulo */
+            .subtitle{
+                position: absolute;
+                right: 0;
+                bottom: -15px;
+                font-size: 16px;
+                color: blue;
             }
         </style>
     </head>
     <body>
         <div class="header-links">
-            <a href="image.html">Images</a>
-            <a href="#">Advanced</a>
+            <a href="index.html">Search</a>
         </div>
 
         <div class="search-container">
             <form action="https://google.com/search">
-                <h1>Search</h1>
+                <input type="hidden" name="tbm" value="isch">
+                <h1>
+                    Search
+                    <span class="subtitle">images</span>
+                </h1>
 
                 <input type="text" name="q" style="width: 400px; padding: 8px">
 
                 <div class="button-container">
-                    <input type="submit" value="Search">
-                    <input type="submit" name="btnI" value="I'm Feeling Lucky">
+                    <input type="submit" value="Image Search">
                 </div>
             </form>
         </div>
