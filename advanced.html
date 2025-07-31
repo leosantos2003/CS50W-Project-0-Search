@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px 35px;
+        }
+        /* Cabeçalho com o logo Search */
+        .header-link a{
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .blue { color: #4285F4; }
+        .red { color: #EA4335; }
+        .yellow { color: #FBBC05; }
+        .green { color: #34A853; }
+
+        /* Título principal da página*/
+        .main-title{
+            color: #d93025;
+            font-size: 20px;
+            font-weight: normal;
+            margin: 30px 0;
+        }
+
+        /* Linha divisória */
+        .divider{
+            border-bottom: 1px solid #ebebeb;
+        }
+
+        /* Container principal do formulário */
+        .advanced-form-container {
+            margin-top: 20px;
+            max-width: 960px; /* Limita a largura do formulário */
+        }
+
+        /* Cada linha do formulário (título + barra de pesquisa) */
+        .form-row{
+            margin-bottom: 20px;
+        }
+        
+        .form-row label {
+            font-size: 13px;
+            margin-bottom: 4px;
+            color: #222;
+        }
+        
+        .input-container {
+            max-width: 570px; /* Largura máxima do campo */
+        }
+
+        .form-row input[type="text"] {
+            width: 100%;
+            border: 1px solid #d9d9d9;
+            border-top: 1px solid #c0c0c0;
+            font-size: 13px;
+            height: 25px;
+            padding: 1px 8px;
+        }
+
+        .form-row input[type="text"]:focus {
+            outline: none;
+            border: 1px solid #4d90fe;
+        }
+
+        .helper-text {
+            font-size: 11px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* Botão de busca avançada */
+        .submit-container {
+            display: flex;
+            justify-content: flex-end; /* Alinha o botão à direita */
+            max-width: 770px; /* 200px (label) + 570px (input) */
+        }
+
+        input[type="submit"] {
+            background-color: #4d90fe;
+            border: 1px solid #3079ed;
+            color: #fff;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: bold;
+            text-align: center;
+            padding: 0 12px;
+            height: 29px;
+            line-height: 27px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #357ae8;
+            border: 1px solid #2f5bb7;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header-link">
+        <a href="index.html">
+            <span class="blue">S</span><span class="red">e</span><span class="yellow">a</span><span class="blue">r</span><span class="green">c</span><span class="red">h</span>
+        </a>
+    </div>
+
+    <h2 class="main-title">Advanced Search</h2>
+    <div class="divider"></div>
+
+    <div class="advanced-form-container">
+        <p style="font-size: 16px; color: #333;">Find pages with...</p>
+
+        <form action="https://google.com/search">
+            <div class="form-row">
+                <label for="as_q">all these words:</label>
+                <div class="input-container">
+                    <input type="text" id="as_q" name="as_q">
+                    <p class="helper-text">Type the important words: tri-colour rat terrier</p>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label for="as_epq">this exact word or phrase:</label>
+                <div class="input-container">
+                    <input type="text" id="as_epq" name="as_epq">
+                    <p class="helper-text">Put exact words in quotes: "rat terrier"</p>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label for="as_oq">any of these words:</label>
+                <div class="input-container">
+                    <input type="text" id="as_oq" name="as_oq">
+                    <p class="helper-text">Type OR between all the words you want: miniature OR standard</p>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label for="as_eq">none of these words:</label>
+                <div class="input-container">
+                    <input type="text" id="as_eq" name="as_eq">
+                    <p class="helper-text">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                </div>
+            </div>
+
+            <div class="submit-container">
+                <input type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
