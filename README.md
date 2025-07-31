@@ -32,25 +32,25 @@ Proposed as [Project 0](https://cs50.harvard.edu/web/projects/0/search/) by CS50
 
 4. **Advanced Search:**
 
-all these words:
+   * all these words:
 
-   * Parameters: `as_q`
-   * `<input type="text" id="as_q" name="as_q">`
+     * Parameters: `as_q`
+     * `<input type="text" id="as_q" name="as_q">`
 
-this exact word or phrase:
+   * this exact word or phrase:
 
-   * Parameters: `as_epq`
-   * `<input type="text" id="as_epq" name="as_epq">`
+     * Parameters: `as_epq`
+     * `<input type="text" id="as_epq" name="as_epq">`
 
-any of these words:
+   * any of these words:
 
-   * Parameters: `as_oq`
-   * `<input type="text" id="as_oq" name="as_oq">`
+     * Parameters: `as_oq`
+     * `<input type="text" id="as_oq" name="as_oq">`
 
-none of these words:
+   * none of these words:
 
-   * Parameters: `as_eq`
-   * `<input type="text" id="as_eq" name="as_eq">`
+     * Parameters: `as_eq`
+     * `<input type="text" id="as_eq" name="as_eq">`
 
 <img width="1026" height="704" alt="Captura de tela 2025-07-31 023035" src="https://github.com/user-attachments/assets/ba952a59-9efd-496a-9a22-9a3a95279c16" />
 
