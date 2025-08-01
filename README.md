@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1258" height="336" alt="Captura de tela 2025-08-01 182910" src="https://github.com/user-attachments/assets/fc39e1fc-1d42-44ea-a0cb-d90077340419" />
+  <img width="1258/2" height="336/2" alt="Captura de tela 2025-08-01 182910" src="https://github.com/user-attachments/assets/fc39e1fc-1d42-44ea-a0cb-d90077340419" />
 
   # Search
 
