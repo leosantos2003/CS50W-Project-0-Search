@@ -1,7 +1,6 @@
-
-<img width="341" height="112" alt="Captura de tela 2025-07-31 030328" src="https://github.com/user-attachments/assets/25697585-9ed2-4f35-81e3-1bf7aba1ca23" />
-
-# Search
+<div align="center">
+  # Search
+</div>
 
 **HarvardX CS50W - CS50's Web Programming with Python and JavaScript**
 
@@ -21,14 +20,14 @@ Proposed as [Project 0](https://cs50.harvard.edu/web/projects/0/search/) by CS50
    * Parameters: `q`, `btnI`
    * `<input type="submit" name="btnI" value="I'm Feeling Lucky">`
 
-<img width="812" height="363" alt="Captura de tela 2025-07-31 023011" src="https://github.com/user-attachments/assets/d5febd06-9299-437f-99d8-fa20920c9984" />
+<img width="1909" height="860" alt="Captura de tela 2025-08-01 181653" src="https://github.com/user-attachments/assets/346d18c8-e2ea-46d6-b868-a7f69054aab2" />
 
 3. **Image Search:**
 
    * Parameters: `q`, `tbm`
    * `<input type="hidden" name="tbm" value="isch">`
 
-<img width="805" height="355" alt="Captura de tela 2025-07-31 023023" src="https://github.com/user-attachments/assets/97be8cc5-ca24-4717-9d95-a8f40342d10c" />
+<img width="1910" height="861" alt="Captura de tela 2025-08-01 181752" src="https://github.com/user-attachments/assets/c02e768f-afce-4751-a4d4-382707a6b61d" />
 
 4. **Advanced Search:**
 
@@ -52,7 +51,7 @@ Proposed as [Project 0](https://cs50.harvard.edu/web/projects/0/search/) by CS50
      * Parameters: `as_eq`
      * `<input type="text" id="as_eq" name="as_eq">`
 
-<img width="1026" height="704" alt="Captura de tela 2025-07-31 023035" src="https://github.com/user-attachments/assets/ba952a59-9efd-496a-9a22-9a3a95279c16" />
+<img width="1910" height="860" alt="Captura de tela 2025-08-01 181829" src="https://github.com/user-attachments/assets/5b5fa271-a4b3-4253-a110-f8b516b6a391" />
 
 ## Video Demo
 
