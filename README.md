@@ -7,7 +7,9 @@
 
 ## About
 
-Proposed as [Project 0](https://cs50.harvard.edu/web/projects/0/search/) by CS50W. A front-end built with HTML and CSS for Google Search, Google Image Search and Google Advanced Search. Includes the "I'm Feeling Lucky" and all the Advanced Search filters. Each search redirects the user to Google's results, through the `action` attribute with specific `GET` parameters.
+Proposed as [Project 0](https://cs50.harvard.edu/web/projects/0/search/) by CS50W. A front-end built with HTML and CSS for Google Search, Google Image Search and Google Advanced Search.
+
+Includes the "I'm Feeling Lucky" and all the Advanced Search filters. Each search redirects the user to Google's results, through the `action` attribute with specific `GET` parameters.
 
 ## Screenshots
 
