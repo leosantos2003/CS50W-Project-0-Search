@@ -1,6 +1,4 @@
 <div align="center">
-  <img width="314.5" height="84" alt="Captura de tela 2025-08-01 182910" src="https://github.com/user-attachments/assets/fc39e1fc-1d42-44ea-a0cb-d90077340419" />
-
   # Search
 
 **HarvardX CS50W - CS50's Web Programming with Python and JavaScript**
